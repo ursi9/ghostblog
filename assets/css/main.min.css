@@ -2065,12 +2065,12 @@ body.drawer-transition {
 }
 .wrapper {
 	position: absolute;
-	left: 30%;
+	left: 20%;
 	right: 0;
 	top: 0;
 	bottom: 0;
 	outline: 0;
-	background-color: #fff;
+	background-color: #E2E6EC;
 	overflow: auto
 }
 @media only screen and (max-width:1023px) {
@@ -2095,7 +2095,7 @@ body.drawer-transition {
 	}
 }
 .wrapper-post .wrapper-container {
-	max-width: 700px;
+	max-width: 900px;
 	padding-left: 0;
 	padding-right: 0
 }
