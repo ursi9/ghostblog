@@ -1,12 +1,12 @@
 <aside role="banner" class="cover">
   <div {{#if @blog.cover_image}}data-load-image="{{@blog.cover_image}}"{{/if}} class="cover-image"></div>
-  <div class="cover-container">
+  <div class="cover-container" style="text-align:left;">
     {{#if @blog.logo}}
       <a href="{{@blog.url}}" class="cover-logo" data-pjax>
         <img src="{{@blog.logo}}" alt="Blog Logo">
       </a>
     {{/if}}
-    <h1 class="cover-title">{{@blog.title}}</h1>
-    <p class="cover-description">{{@blog.description}}</p>
+    <h1 class="cover-title" style="width:100px;background-color:rgba(40,40,40,0.6)">&nbsp;&nbsp;{{@blog.title}}</h1>
+    <p class="cover-description" style="width:210px;background-color:rgba(40,40,40,0.6)">&nbsp;&nbsp;Data-oriented decisions,<br><strong> &nbsp;&nbsp;&nbsp; people-oriented goals</strong>.</p>
   </div>
 </aside>
